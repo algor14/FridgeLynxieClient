@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="#77d065"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:id="@+id/CurrentUserInfoText1" />
+    <EditText
+        android:id="@+id/UserNameEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/CreateNewUserButton" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete profile"
+        android:id="@+id/DeleteProfileButton" />
+<!--<TextView
+      android:textColor="#77d065"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20dp"
+      android:text="Join to existing network or create new one" />-->
+<!-- -->
+<!--<Label TextColor="#77d065" FontSize = "14" Text="Network name" />-->
+    <TextView
+        android:textColor="#77d065"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text=""
+        android:id="@+id/CurrentNetworkInfoText1" />
+    <TextView
+        android:textColor="#77d065"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:id="@+id/CurrentNetworkInfoTextName"
+        android:text="Network name" />
+    <EditText
+        android:id="@+id/NetworkNameEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#77d065"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:id="@+id/CurrentNetworkInfoTextPassword"
+        android:text="Network password" />
+    <EditText
+        android:id="@+id/NetworkPasswordEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new network"
+        android:id="@+id/CreateNetworkButton" />
+  <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join to the network"
+        android:id="@+id/JoinNetworkButton" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/BackButton" />
+</LinearLayout>

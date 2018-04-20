@@ -1,0 +1,10 @@
+
+Локальная БД
+
+Основана на NuGet пакете SQLite-net-pcl
+Описание: https://msdn.microsoft.com/en-us/magazine/mt736454.aspx
+
+Основная реализация в классе SQLiteRepository, статический экземпляр которого создается в классе SQLiteDataService.
+Для локальной БД созданы свои модели, FridgeLynxie.Core.SQLite.Models. Для каждой платформы существует свой класс, определяющий, с помощью внедрения зависимости, connectionString и реализующий интерфейс IDatabaseConnection. Для андройд версии это DatabaseConnection_Android.cs
+
+
